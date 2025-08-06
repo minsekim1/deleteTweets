@@ -12,12 +12,14 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node delete.ts"
   },
   "dependencies": {
-    "puppeteer": "^24.15.0"
+    "fs": "^0.0.1-security",
+    "puppeteer": "^24.15.0",
+    "ts-node": "^10.9.2"
   }
 }
